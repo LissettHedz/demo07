@@ -1,0 +1,32 @@
+<!-- <app-loader></app-loader> -->
+<div id="pcoded" class="pcoded">
+    <div class="pcoded-overlay-box"></div>
+    <div class="pcoded-container navbar-wrapper">
+        <app-header></app-header>
+        <div class="pcoded-main-container">
+            <div class="pcoded-wrapper">
+                <app-side-bar></app-side-bar>
+                <div class="pcoded-content">
+                    <app-breadcrumb></app-breadcrumb>
+                    <div class="pcoded-inner-content">
+                        <!-- Main-body start -->
+                        <div class="main-body">
+                            <div class="page-wrapper">
+                                <!-- Page-body start -->
+                                <div class="page-body">
+                                    <div class="row">
+                                        <!-- Material statustic card start -->
+                                        <router-outlet></router-outlet>
+                                        <!-- Project statustic end -->
+                                    </div>
+                                </div>
+                                <!-- Page-body end -->
+                            </div>
+                            <div id="styleSelector"> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
